@@ -27,6 +27,7 @@ model = {
     "hyena_lm": "src.models.sequence.long_conv_lm.ConvLMHeadModel",
     "mamba_lm": "mamba_ssm.models.mixer_seq_simple.MambaLMHeadModel",
     "caduceus_lm": "caduceus.modeling_caduceus.CaduceusForMaskedLM",
+    "ttt_lm": "caduceus.ttt.TTTForCausalLM",
 
     # Downstream task embedding backbones
     "dna_embedding": "src.models.sequence.dna_embedding.DNAEmbeddingModel",
